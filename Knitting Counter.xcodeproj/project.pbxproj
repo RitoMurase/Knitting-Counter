@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35088E6D2BC2DA7D003D5EAB /* KnittingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E6C2BC2DA7D003D5EAB /* KnittingCounter.swift */; };
+		35088E732BC2DCE1003D5EAB /* CounterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E722BC2DCE1003D5EAB /* CounterRow.swift */; };
+		35088E762BC2DF11003D5EAB /* knittingcounterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 35088E752BC2DF11003D5EAB /* knittingcounterData.json */; };
+		35088E7A2BC2E43E003D5EAB /* CounterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E792BC2E43E003D5EAB /* CounterList.swift */; };
+		35088E7C2BC2E664003D5EAB /* CounterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E7B2BC2E664003D5EAB /* CounterDetail.swift */; };
+		355A92792BCAC94A0082E37F /* AddCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355A92782BCAC94A0082E37F /* AddCounter.swift */; };
+		355A927B2BCB83380082E37F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355A927A2BCB83380082E37F /* CircleView.swift */; };
+		35DC534D2BC131A3005C290B /* Knitting Counter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		35DC53522BC131A3005C290B /* Knitting_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC53512BC131A3005C290B /* Knitting_CounterApp.swift */; };
+		35DC53542BC131A3005C290B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC53532BC131A3005C290B /* ContentView.swift */; };
+		35DC53562BC131A7005C290B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DC53552BC131A7005C290B /* Assets.xcassets */; };
+		35DC53592BC131A7005C290B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DC53582BC131A7005C290B /* Preview Assets.xcassets */; };
+		35DC53632BC131A7005C290B /* Knitting_Counter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC53622BC131A7005C290B /* Knitting_Counter_Watch_AppTests.swift */; };
+		35DC536D2BC131A7005C290B /* Knitting_Counter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC536C2BC131A7005C290B /* Knitting_Counter_Watch_AppUITests.swift */; };
+		35DC536F2BC131A7005C290B /* Knitting_Counter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DC536E2BC131A7005C290B /* Knitting_Counter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35DC534E2BC131A3005C290B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DC53402BC131A2005C290B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DC534B2BC131A3005C290B;
+			remoteInfo = "Knitting Counter Watch App";
+		};
+		35DC535F2BC131A7005C290B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DC53402BC131A2005C290B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DC534B2BC131A3005C290B;
+			remoteInfo = "Knitting Counter Watch App";
+		};
+		35DC53692BC131A7005C290B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DC53402BC131A2005C290B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DC534B2BC131A3005C290B;
+			remoteInfo = "Knitting Counter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35DC53752BC131A7005C290B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				35DC534D2BC131A3005C290B /* Knitting Counter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35088E6C2BC2DA7D003D5EAB /* KnittingCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnittingCounter.swift; sourceTree = "<group>"; };
+		35088E722BC2DCE1003D5EAB /* CounterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterRow.swift; sourceTree = "<group>"; };
+		35088E752BC2DF11003D5EAB /* knittingcounterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = knittingcounterData.json; sourceTree = "<group>"; };
+		35088E792BC2E43E003D5EAB /* CounterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterList.swift; sourceTree = "<group>"; };
+		35088E7B2BC2E664003D5EAB /* CounterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetail.swift; sourceTree = "<group>"; };
+		355A92782BCAC94A0082E37F /* AddCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCounter.swift; sourceTree = "<group>"; };
+		355A927A2BCB83380082E37F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		35DC53462BC131A3005C290B /* Knitting Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DC53512BC131A3005C290B /* Knitting_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting_CounterApp.swift; sourceTree = "<group>"; };
+		35DC53532BC131A3005C290B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35DC53552BC131A7005C290B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35DC53582BC131A7005C290B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35DC535E2BC131A7005C290B /* Knitting Counter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knitting Counter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DC53622BC131A7005C290B /* Knitting_Counter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting_Counter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		35DC53682BC131A7005C290B /* Knitting Counter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knitting Counter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DC536C2BC131A7005C290B /* Knitting_Counter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting_Counter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		35DC536E2BC131A7005C290B /* Knitting_Counter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting_Counter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DC53492BC131A3005C290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC535B2BC131A7005C290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC53652BC131A7005C290B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35088E702BC2DC80003D5EAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35DC53532BC131A3005C290B /* ContentView.swift */,
+				35088E722BC2DCE1003D5EAB /* CounterRow.swift */,
+				35088E7B2BC2E664003D5EAB /* CounterDetail.swift */,
+				355A927A2BCB83380082E37F /* CircleView.swift */,
+				35088E792BC2E43E003D5EAB /* CounterList.swift */,
+				355A92782BCAC94A0082E37F /* AddCounter.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35088E712BC2DC9B003D5EAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35088E6C2BC2DA7D003D5EAB /* KnittingCounter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35088E742BC2DED4003D5EAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35088E752BC2DF11003D5EAB /* knittingcounterData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35DC533F2BC131A2005C290B = {
+			isa = PBXGroup;
+			children = (
+				35DC53502BC131A3005C290B /* Knitting Counter Watch App */,
+				35DC53612BC131A7005C290B /* Knitting Counter Watch AppTests */,
+				35DC536B2BC131A7005C290B /* Knitting Counter Watch AppUITests */,
+				35DC53472BC131A3005C290B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35DC53472BC131A3005C290B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35DC53462BC131A3005C290B /* Knitting Counter.app */,
+				35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */,
+				35DC535E2BC131A7005C290B /* Knitting Counter Watch AppTests.xctest */,
+				35DC53682BC131A7005C290B /* Knitting Counter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35DC53502BC131A3005C290B /* Knitting Counter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				35DC53512BC131A3005C290B /* Knitting_CounterApp.swift */,
+				35088E742BC2DED4003D5EAB /* Resources */,
+				35088E712BC2DC9B003D5EAB /* Model */,
+				35088E702BC2DC80003D5EAB /* Views */,
+				35DC53552BC131A7005C290B /* Assets.xcassets */,
+				35DC53572BC131A7005C290B /* Preview Content */,
+			);
+			path = "Knitting Counter Watch App";
+			sourceTree = "<group>";
+		};
+		35DC53572BC131A7005C290B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35DC53582BC131A7005C290B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35DC53612BC131A7005C290B /* Knitting Counter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				35DC53622BC131A7005C290B /* Knitting_Counter_Watch_AppTests.swift */,
+			);
+			path = "Knitting Counter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		35DC536B2BC131A7005C290B /* Knitting Counter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35DC536C2BC131A7005C290B /* Knitting_Counter_Watch_AppUITests.swift */,
+				35DC536E2BC131A7005C290B /* Knitting_Counter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Knitting Counter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35DC53452BC131A3005C290B /* Knitting Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DC53762BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter" */;
+			buildPhases = (
+				35DC53442BC131A3005C290B /* Resources */,
+				35DC53752BC131A7005C290B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DC534F2BC131A3005C290B /* PBXTargetDependency */,
+			);
+			name = "Knitting Counter";
+			productName = "Knitting Counter";
+			productReference = 35DC53462BC131A3005C290B /* Knitting Counter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		35DC534B2BC131A3005C290B /* Knitting Counter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DC53722BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch App" */;
+			buildPhases = (
+				35DC53482BC131A3005C290B /* Sources */,
+				35DC53492BC131A3005C290B /* Frameworks */,
+				35DC534A2BC131A3005C290B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knitting Counter Watch App";
+			productName = "Knitting Counter Watch App";
+			productReference = 35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35DC535D2BC131A7005C290B /* Knitting Counter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DC53792BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch AppTests" */;
+			buildPhases = (
+				35DC535A2BC131A7005C290B /* Sources */,
+				35DC535B2BC131A7005C290B /* Frameworks */,
+				35DC535C2BC131A7005C290B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DC53602BC131A7005C290B /* PBXTargetDependency */,
+			);
+			name = "Knitting Counter Watch AppTests";
+			productName = "Knitting Counter Watch AppTests";
+			productReference = 35DC535E2BC131A7005C290B /* Knitting Counter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35DC53672BC131A7005C290B /* Knitting Counter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DC537C2BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch AppUITests" */;
+			buildPhases = (
+				35DC53642BC131A7005C290B /* Sources */,
+				35DC53652BC131A7005C290B /* Frameworks */,
+				35DC53662BC131A7005C290B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DC536A2BC131A7005C290B /* PBXTargetDependency */,
+			);
+			name = "Knitting Counter Watch AppUITests";
+			productName = "Knitting Counter Watch AppUITests";
+			productReference = 35DC53682BC131A7005C290B /* Knitting Counter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35DC53402BC131A2005C290B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					35DC53452BC131A3005C290B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					35DC534B2BC131A3005C290B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					35DC535D2BC131A7005C290B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 35DC534B2BC131A3005C290B;
+					};
+					35DC53672BC131A7005C290B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 35DC534B2BC131A3005C290B;
+					};
+				};
+			};
+			buildConfigurationList = 35DC53432BC131A2005C290B /* Build configuration list for PBXProject "Knitting Counter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35DC533F2BC131A2005C290B;
+			productRefGroup = 35DC53472BC131A3005C290B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DC53452BC131A3005C290B /* Knitting Counter */,
+				35DC534B2BC131A3005C290B /* Knitting Counter Watch App */,
+				35DC535D2BC131A7005C290B /* Knitting Counter Watch AppTests */,
+				35DC53672BC131A7005C290B /* Knitting Counter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DC53442BC131A3005C290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC534A2BC131A3005C290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DC53592BC131A7005C290B /* Preview Assets.xcassets in Resources */,
+				35DC53562BC131A7005C290B /* Assets.xcassets in Resources */,
+				35088E762BC2DF11003D5EAB /* knittingcounterData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC535C2BC131A7005C290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC53662BC131A7005C290B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35DC53482BC131A3005C290B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355A927B2BCB83380082E37F /* CircleView.swift in Sources */,
+				35088E6D2BC2DA7D003D5EAB /* KnittingCounter.swift in Sources */,
+				35088E732BC2DCE1003D5EAB /* CounterRow.swift in Sources */,
+				35088E7C2BC2E664003D5EAB /* CounterDetail.swift in Sources */,
+				355A92792BCAC94A0082E37F /* AddCounter.swift in Sources */,
+				35DC53542BC131A3005C290B /* ContentView.swift in Sources */,
+				35088E7A2BC2E43E003D5EAB /* CounterList.swift in Sources */,
+				35DC53522BC131A3005C290B /* Knitting_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC535A2BC131A7005C290B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DC53632BC131A7005C290B /* Knitting_Counter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DC53642BC131A7005C290B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DC536D2BC131A7005C290B /* Knitting_Counter_Watch_AppUITests.swift in Sources */,
+				35DC536F2BC131A7005C290B /* Knitting_Counter_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35DC534F2BC131A3005C290B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DC534B2BC131A3005C290B /* Knitting Counter Watch App */;
+			targetProxy = 35DC534E2BC131A3005C290B /* PBXContainerItemProxy */;
+		};
+		35DC53602BC131A7005C290B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DC534B2BC131A3005C290B /* Knitting Counter Watch App */;
+			targetProxy = 35DC535F2BC131A7005C290B /* PBXContainerItemProxy */;
+		};
+		35DC536A2BC131A7005C290B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DC534B2BC131A3005C290B /* Knitting Counter Watch App */;
+			targetProxy = 35DC53692BC131A7005C290B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35DC53702BC131A7005C290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35DC53712BC131A7005C290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		35DC53732BC131A7005C290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knitting Counter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K66RZ4FSQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Knitting Counter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		35DC53742BC131A7005C290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knitting Counter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K66RZ4FSQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Knitting Counter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		35DC53772BC131A7005C290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K66RZ4FSQZ;
+				INFOPLIST_KEY_CFBundleDisplayName = "Knitting Counter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35DC53782BC131A7005C290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K66RZ4FSQZ;
+				INFOPLIST_KEY_CFBundleDisplayName = "Knitting Counter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35DC537A2BC131A7005C290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knitting Counter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Knitting Counter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		35DC537B2BC131A7005C290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knitting Counter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Knitting Counter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		35DC537D2BC131A7005C290B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Knitting Counter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		35DC537E2BC131A7005C290B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Knitting-Counter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Knitting Counter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35DC53432BC131A2005C290B /* Build configuration list for PBXProject "Knitting Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC53702BC131A7005C290B /* Debug */,
+				35DC53712BC131A7005C290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DC53722BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC53732BC131A7005C290B /* Debug */,
+				35DC53742BC131A7005C290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DC53762BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC53772BC131A7005C290B /* Debug */,
+				35DC53782BC131A7005C290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DC53792BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC537A2BC131A7005C290B /* Debug */,
+				35DC537B2BC131A7005C290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DC537C2BC131A7005C290B /* Build configuration list for PBXNativeTarget "Knitting Counter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC537D2BC131A7005C290B /* Debug */,
+				35DC537E2BC131A7005C290B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35DC53402BC131A2005C290B /* Project object */;
+}
