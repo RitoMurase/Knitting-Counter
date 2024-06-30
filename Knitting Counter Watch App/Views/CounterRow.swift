@@ -15,6 +15,8 @@ struct CounterRow: View {
             Spacer()
             Text(counter.name)
             Text("\(counter.count)/\(counter.targetCount)")
+            Circle().foregroundColor(Color(hex: counter.colorDescription))
+                .frame(width: 10)
             Spacer()
         }
         
@@ -22,5 +24,5 @@ struct CounterRow: View {
 }
 
 #Preview {
-    CounterRow(counter: KnittingCounter(name: "test", targetCount: 10))
+    CounterRow(counter: KnittingCounter(name: "test", targetCount: 10, colorDescription: "blue"))
 }

@@ -14,7 +14,6 @@ struct Knitting_Counter_Watch_AppApp: App {
         WindowGroup {
             ContentView()
                 .modelContainer(for: KnittingCounter.self)
-                //.environment(modelData)
         }
     }
 }

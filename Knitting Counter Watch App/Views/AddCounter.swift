@@ -12,6 +12,7 @@ struct AddCounter: View {
     @Environment(\.modelContext) private var context
     @State private var nameFieldInput = ""
     @State private var targetCountFieldInput = 100
+    @State private var color = Color(red: 0.0, green: 0.0, blue: 1.0, opacity: 0.9)
     
     @Binding var path: NavigationPath
         
@@ -25,16 +26,20 @@ struct AddCounter: View {
                 Text("Target Count")
                 TextField("Target Count", value: $targetCountFieldInput, format: .number)
             }
+            HStack{
+                Text("Color")
+                SelectColor(color: $color)
+            }
             Button(action: {
-                add(name: nameFieldInput, targetCount: targetCountFieldInput)
+                add(name: nameFieldInput, targetCount: targetCountFieldInput, color: color)
                 path.removeLast()
                 
             }, label: {Text("Add")})
         }
     }
     
-    private func add(name:String, targetCount: Int) {
-        let data = KnittingCounter(name: name, targetCount: targetCount)
+    private func add(name:String, targetCount: Int, color: Color) {
+        let data = KnittingCounter(name: name, targetCount: targetCount, colorDescription: String(color.description))
         context.insert(data)
         
     }

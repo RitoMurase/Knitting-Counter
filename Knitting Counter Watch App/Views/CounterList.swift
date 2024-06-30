@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct CounterList: View {
-    //@Environment(ModelData.self) var modelData
     @Environment(\.modelContext) private var context
     @Query private var knitting_counters: [KnittingCounter]
     @State var path = NavigationPath()
@@ -20,7 +19,7 @@ struct CounterList: View {
                 Button("+"){
                                 path.append(0)
                             }
-                            .navigationTitle("Home")
+                            .navigationTitle("Knitting Counter")
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationDestination(for: Int.self, destination: { _ in
                                 AddCounter(path: $path)

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,10 @@
 		35088E762BC2DF11003D5EAB /* knittingcounterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 35088E752BC2DF11003D5EAB /* knittingcounterData.json */; };
 		35088E7A2BC2E43E003D5EAB /* CounterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E792BC2E43E003D5EAB /* CounterList.swift */; };
 		35088E7C2BC2E664003D5EAB /* CounterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35088E7B2BC2E664003D5EAB /* CounterDetail.swift */; };
+		352DEADC2C2F95BF001ED70D /* SelectColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DEADB2C2F95BF001ED70D /* SelectColor.swift */; };
+		3542D8412C2FCC5C00AEC6F4 /* Vela in Frameworks */ = {isa = PBXBuildFile; productRef = 3542D8402C2FCC5C00AEC6F4 /* Vela */; };
+		3550795C2C30FD1E00228E39 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550795B2C30FD1E00228E39 /* Effect.swift */; };
+		3550795E2C311A8800228E39 /* FlowerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550795D2C311A8800228E39 /* FlowerEffect.swift */; };
 		355A92792BCAC94A0082E37F /* AddCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355A92782BCAC94A0082E37F /* AddCounter.swift */; };
 		355A927B2BCB83380082E37F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355A927A2BCB83380082E37F /* CircleView.swift */; };
 		35DC534D2BC131A3005C290B /* Knitting Counter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -68,6 +72,9 @@
 		35088E752BC2DF11003D5EAB /* knittingcounterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = knittingcounterData.json; sourceTree = "<group>"; };
 		35088E792BC2E43E003D5EAB /* CounterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterList.swift; sourceTree = "<group>"; };
 		35088E7B2BC2E664003D5EAB /* CounterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetail.swift; sourceTree = "<group>"; };
+		352DEADB2C2F95BF001ED70D /* SelectColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColor.swift; sourceTree = "<group>"; };
+		3550795B2C30FD1E00228E39 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		3550795D2C311A8800228E39 /* FlowerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerEffect.swift; sourceTree = "<group>"; };
 		355A92782BCAC94A0082E37F /* AddCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCounter.swift; sourceTree = "<group>"; };
 		355A927A2BCB83380082E37F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		35DC53462BC131A3005C290B /* Knitting Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3542D8412C2FCC5C00AEC6F4 /* Vela in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +125,9 @@
 				355A927A2BCB83380082E37F /* CircleView.swift */,
 				35088E792BC2E43E003D5EAB /* CounterList.swift */,
 				355A92782BCAC94A0082E37F /* AddCounter.swift */,
+				352DEADB2C2F95BF001ED70D /* SelectColor.swift */,
+				3550795B2C30FD1E00228E39 /* Effect.swift */,
+				3550795D2C311A8800228E39 /* FlowerEffect.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +240,9 @@
 			dependencies = (
 			);
 			name = "Knitting Counter Watch App";
+			packageProductDependencies = (
+				3542D8402C2FCC5C00AEC6F4 /* Vela */,
+			);
 			productName = "Knitting Counter Watch App";
 			productReference = 35DC534C2BC131A3005C290B /* Knitting Counter Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -304,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 35DC533F2BC131A2005C290B;
+			packageReferences = (
+				3542D83F2C2FCC5B00AEC6F4 /* XCLocalSwiftPackageReference "../../Vela" */,
+			);
 			productRefGroup = 35DC53472BC131A3005C290B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -355,10 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3550795C2C30FD1E00228E39 /* Effect.swift in Sources */,
+				3550795E2C311A8800228E39 /* FlowerEffect.swift in Sources */,
 				355A927B2BCB83380082E37F /* CircleView.swift in Sources */,
 				35088E6D2BC2DA7D003D5EAB /* KnittingCounter.swift in Sources */,
 				35088E732BC2DCE1003D5EAB /* CounterRow.swift in Sources */,
 				35088E7C2BC2E664003D5EAB /* CounterDetail.swift in Sources */,
+				352DEADC2C2F95BF001ED70D /* SelectColor.swift in Sources */,
 				355A92792BCAC94A0082E37F /* AddCounter.swift in Sources */,
 				35DC53542BC131A3005C290B /* ContentView.swift in Sources */,
 				35088E7A2BC2E43E003D5EAB /* CounterList.swift in Sources */,
@@ -741,6 +761,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3542D83F2C2FCC5B00AEC6F4 /* XCLocalSwiftPackageReference "../../Vela" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Vela;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3542D8402C2FCC5C00AEC6F4 /* Vela */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Vela;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 35DC53402BC131A2005C290B /* Project object */;
 }
