@@ -14,32 +14,32 @@ struct CounterList: View {
     @State var path = NavigationPath()
     
     var body: some View {
+        
         NavigationStack(path: $path){
-            VStack{
-                Button("+"){
-                                path.append(0)
-                            }
-                            .navigationTitle("Knitting Counter")
-                            .navigationBarTitleDisplayMode(.inline)
-                            .navigationDestination(for: Int.self, destination: { _ in
-                                AddCounter(path: $path)
-                            })
-                List{
-                    ForEach(knitting_counters){ counter in
-                        NavigationLink{
-                            CounterDetail(counter: counter)
-                        } label: {
-                            CounterRow(counter: counter)
-                        }
+            Button("+"){
+                        path.append(0)
                     }
-                    .onDelete(perform: { indexSet in
-                                        for index in indexSet {
-                                            delete(knitting_counter: knitting_counters[index])
-                                        }
-                                    })
-                }
-            }
+                    .navigationTitle("Knitting Counter")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationDestination(for: Int.self, destination: { _ in
+                        AddCounter(path: $path)
+                    })
+            List{
+                        ForEach(knitting_counters){ counter in
+                            NavigationLink{
+                                CounterDetail(counter: counter)
+                            } label: {
+                                CounterRow(counter: counter)
+                            }
+                        }
+                        .onDelete(perform: { indexSet in
+                                            for index in indexSet {
+                                                delete(knitting_counter: knitting_counters[index])
+                                            }
+                                        })
+                    }
         }
+        
     }
     
     private func delete(knitting_counter:KnittingCounter){

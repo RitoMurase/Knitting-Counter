@@ -17,7 +17,7 @@ struct AddCounter: View {
     @Binding var path: NavigationPath
         
     var body: some View {
-        VStack{
+        ScrollView(.vertical){
             HStack{
                 Text("Name")
                 TextField("Name", text: $nameFieldInput)
@@ -34,7 +34,7 @@ struct AddCounter: View {
                 add(name: nameFieldInput, targetCount: targetCountFieldInput, color: color)
                 path.removeLast()
                 
-            }, label: {Text("Add")})
+            }, label: {Text("Create")}).accessibility(identifier: "AddCounter")
         }
     }
     

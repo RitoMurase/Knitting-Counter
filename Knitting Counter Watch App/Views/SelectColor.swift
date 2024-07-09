@@ -12,9 +12,9 @@ struct SelectColor: View {
     @Binding var color: Color
 
     var body: some View {
-        VelaPicker(color: $color, label: {
+        VelaPicker(color: $color, allowOpacity: true, label: {
             Text(color.description)
-        }, allowOpacity: true)
+        })
     }
 }
 
