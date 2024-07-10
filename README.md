@@ -1,6 +1,7 @@
-# Abstract
+# Knitting Counter
 This application is a simple counter tool for needleworks. 
 
+##Abstract
 You can count the number of rows without taking your hands off your knitting. 
 
 You can change name, target count and color of the counter when creating it. 
